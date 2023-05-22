@@ -9,4 +9,8 @@ app.post("/", (req, res) => {
     console.log("Post request");
 });
 
+app.get("/id", (req, res) => {
+    console.log("get request by id");
+});
+
 app.listen(3000);
